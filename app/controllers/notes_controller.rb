@@ -1,6 +1,6 @@
 class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
-  before_Action :require_logged_in
+  before_action :require_logged_in
   # GET /notes
   # GET /notes.json
   def index
